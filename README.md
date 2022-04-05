@@ -1,0 +1,30 @@
+[![Release](https://github.com/brondani/cbuild/actions/workflows/release.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/release.yml)
+[![Build](https://github.com/brondani/cbuild/actions/workflows/build.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/build.yml/badge.svg)
+[![Tests](https://github.com/brondani/cbuild/actions/workflows/test.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/test.yml/badge.svg)
+
+# cbuild: Open-CMSIS-Pack Build Invocation Utility
+
+This utility allows embedded developers to orchestrate the build of CPRJ projects using `cbuildgen`, `cpackget`, `cmake` and `ninja.`
+
+## Usage
+
+```bash
+cbuild: Build Invocation 0.11.0-dev0 (C) 2022 ARM
+
+Usage:
+  cbuild <project.cprj> [flags]
+
+Flags:
+  -c, --clean              Remove intermediate and output directories
+  -d, --debug              Enable debug messages
+  -g, --generator string   Select build system generator (default "Ninja")
+  -h, --help               Print usage
+  -i, --intdir string      Set intermediate directory
+  -j, --jobs int           Number of job slots for parallel execution
+  -l, --log string         Save output messages in a log file
+  -o, --outdir string      Set output directory
+  -q, --quiet              Suppress output messages except build invocations
+  -t, --target string      Optional CMake target name
+  -u, --update string      Generate <CprjFile> for reproducing current build
+  -v, --version            Print version
+```
