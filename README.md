@@ -1,6 +1,6 @@
-[![Release](https://github.com/brondani/cbuild/actions/workflows/release.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/release.yml)
-[![Build](https://github.com/brondani/cbuild/actions/workflows/build.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/build.yml/badge.svg)
-[![Tests](https://github.com/brondani/cbuild/actions/workflows/test.yml/badge.svg)](https://github.com/brondani/cbuild/actions/workflows/test.yml/badge.svg)
+[![Release](https://github.com/brondani/cbuild0/actions/workflows/release.yml/badge.svg)](https://github.com/brondani/cbuild0/actions/workflows/release.yml/badge.svg)
+[![Build](https://github.com/brondani/cbuild0/actions/workflows/build.yml/badge.svg)](https://github.com/brondani/cbuild0/actions/workflows/build.yml/badge.svg)
+[![Tests](https://github.com/brondani/cbuild0/actions/workflows/test.yml/badge.svg)](https://github.com/brondani/cbuild0/actions/workflows/test.yml/badge.svg)
 
 # cbuild: Open-CMSIS-Pack Build Invocation Utility
 
